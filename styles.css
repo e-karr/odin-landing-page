@@ -157,6 +157,7 @@ button {
     justify-content: space-around;
     padding: 40px;
     gap: 100px;
+    flex-wrap: wrap;
 }
 
 .action-button {
