@@ -4,14 +4,11 @@ body {
 
 header {
     background: #1F2937;
-    justify-content: space-around;
+    padding: 20px 200px 100px 200px;
 }
 
 nav {
     display: flex;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 20px;
 }
 
 .header-logo {
@@ -23,7 +20,7 @@ nav {
 ul {
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     padding: 0;
     margin: 0;
     margin-left: auto;
@@ -33,4 +30,43 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.header-content {
+    display: flex;
+    padding-top: 75px;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.header-image {
+    height: 250px;
+    width: auto;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background: #3882F6;
+    color: #F9FAF8;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 8px;
+    align-self: flex-start;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 400px;
 }
