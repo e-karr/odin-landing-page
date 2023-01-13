@@ -75,5 +75,33 @@ button {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    flex: 1 1 400px;
+    width: 450px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    gap: 5px;
+}
+
+.card-image {
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.card-text {
+    text-align: center;
+    color: #6a6d70;
+    font-size: 12px;
 }
