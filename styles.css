@@ -147,6 +147,24 @@ button {
     align-self: flex-end;
 }
 
+.action {
+    background-color: #3882F6;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 100px;
+}
+
+.action-button {
+    color: #F9FAF8;
+    padding: 5px 25px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
 footer {
     background-color: #1F2937;
     color: #E5E7EB;
