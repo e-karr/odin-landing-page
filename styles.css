@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    justify-content: space-between;
 }
 
 header {
@@ -114,4 +115,34 @@ button {
     text-align: center;
     color: #6a6d70;
     font-size: 12px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-size: 16px;
+    font-weight: 700;
+    align-self: flex-end;
 }
