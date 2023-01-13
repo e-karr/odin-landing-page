@@ -153,7 +153,7 @@ button {
     margin-right: 60px;
     border-radius: 8px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 40px;
     gap: 100px;
 }
@@ -163,6 +163,23 @@ button {
     padding: 5px 25px;
     border: 2px solid white;
     border-radius: 8px;
+    white-space: nowrap;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.action-title {
+    color:#F9FAF8;
+    font-weight: 700;
+}
+
+.action-subtext {
+    color:#E5E7EB;
+    font-size: 12px;
 }
 
 footer {
