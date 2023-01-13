@@ -4,11 +4,14 @@ body {
 
 header {
     background: #1F2937;
-    padding: 20px 200px 100px 200px;
+    padding: 20px 200px 100px 200px; 
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .header-logo {
@@ -35,8 +38,10 @@ a {
 .header-content {
     display: flex;
     padding-top: 75px;
-    justify-content: space-between;
+    justify-content: space-around;
     flex: 1;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 .header-image {
@@ -67,6 +72,6 @@ button {
 .content-left {
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    width: 400px;
+    gap: 10px;
+    flex: 1 1 400px;
 }
