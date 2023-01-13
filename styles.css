@@ -146,3 +146,10 @@ button {
     font-weight: 700;
     align-self: flex-end;
 }
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px;
+    text-align: center;
+}
